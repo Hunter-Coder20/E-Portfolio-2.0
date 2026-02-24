@@ -21,7 +21,7 @@
 </head>
 
 <body>
-  <section id="landing-page">
+  <section id="landing-page" onmousemove="moveBackground(event)">
     <nav>
       <figure>
         <img id="personal-logo" src="assets/Portfolio Logo.png" alt="" />
@@ -31,7 +31,7 @@
           <a href="#" class="nav__link--anchor link__hover-effect link__hover-effect--black">About</a>
         </li>
         <li class="nav__link" onclick="toggleModal()">
-          <a href="#" class="nav__link--anchor link__hover-effect link__hover-effect--black">Projects</a>
+          <a href="#projects" class="nav__link--anchor link__hover-effect link__hover-effect--black">Projects</a>
         </li>
         <li class="nav__link" onclick="toggleModal()">
           <a href="#" class="nav__link--anchor link__hover-effect link__hover-effect--black">Contact</a>
@@ -67,9 +67,11 @@
       </div>
       </div>
     </header>
+    <a href="#"></a>
     <button class="mail__btn click" onclick="toggleModal()">
       <i class="fa-solid fa-envelope"></i>
     </button>
+    </a>
     <a href="#projects" class="scroll">
       <div class="scroll__icon click"></div>
     </a>
@@ -247,23 +249,23 @@
           <img class="footer__logo--img" src="assets/Portfolio Logo.png" alt="">
         </figure>
         <div class="footer__social--list">
-          <a href="https://github.com/Hunter-Coder20" class="
+          <a href="https://github.com/Hunter-Coder20" target="_blank" class="
               footer__social--link
               link__hover-effect
               link__hover-effect--white
               ">
             GitHub
-            <a href="https://github.com/Hunter-Coder20" class="
+            <a href="https://www.linkedin.com/in/hunter-remley-2344a3280/" target="_blank" class="
               footer__social--link
               link__hover-effect
               link__hover-effect--white">
               LinkedIn
-              <a href="https://github.com/Hunter-Coder20" class="
+              <a href="#" onclick="toggleModal()" class="
               footer__social--link
               link__hover-effect
               link__hover-effect--white">
                 Email
-                <a href="file:///C:/Users/theep/Downloads/Hunter%20Remley.pdf" class="
+                <a href="assets/Hunter Remley.pdf" target="_blank" class="
               footer__social--link
               link__hover-effect
               link__hover-effect--white">
